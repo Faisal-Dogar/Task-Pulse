@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables (KABHI bhi git mein push mat karo!)
+.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Alembic cache
+alembic/versions/__pycache__/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Build
+dist/
+build/
+*.egg-info/
